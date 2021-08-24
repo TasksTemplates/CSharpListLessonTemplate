@@ -30,11 +30,11 @@ class LinkedList
     //Очищает список.
     public void Clear();
     //Удаляет все вхождения value в список.
-    public int Remove(int value);
+    public void Remove(int value);
     //Удаляет последний элемент списка.
-    public void PopBack();
+    public int PopBack();
     //Удаляет первый элемент списка.
-    public void PopFront();
+    public int PopFront();
     //Добавляет значение value в конец списка.
     public void PushBack(int value);
     //Добавляет значение value в начало списка.
