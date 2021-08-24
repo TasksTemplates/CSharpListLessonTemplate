@@ -5,7 +5,9 @@
 2.	Напишите тестовую программу
 
 Реализация:
-```cs  class LinkedList {
+```cs  
+class LinkedList 
+{
     public LinkedList();
     public LinkedList(const LinkedList other);
     //Возвращает первый элемент списка.
@@ -38,7 +40,7 @@
     public void PushFront(int value);
     //Вставляет значение value перед элементом, на который указывает before
     public void Insert(uint position, int value);
-  };
+};
 ```
 
 Так же перегрузить метод Equals, позволяющий сравнить два списка. Внутри списка ещё реализовать свойство длинны списка, доступное только для чтения для классов вне списка.
