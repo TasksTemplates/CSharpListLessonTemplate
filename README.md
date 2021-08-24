@@ -9,7 +9,7 @@
 class LinkedList 
 {
     public LinkedList();
-    public LinkedList(const LinkedList other);
+    public LinkedList(LinkedList other);
     //Возвращает первый элемент списка.
     public int Front();
     //Возвращает последний элемент списка.
