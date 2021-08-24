@@ -5,39 +5,40 @@
 2.	Напишите тестовую программу
 
 Реализация:
-  class LinkedList {
+```cs  class LinkedList {
     public LinkedList();
     public LinkedList(const LinkedList other);
     //Возвращает первый элемент списка.
-    public int front();
+    public int Front();
     //Возвращает последний элемент списка.
-    public int  back();
+    public int Back();
     //Возвращает истину, если значение value содержится в списке.
-    public bool contains(const int  value);
+    public bool Contains(int value);
     //Возвращает количество вхождений значения value в список.
-    public int count(int value);
+    public int Count(int value);
     //Возвращает размер списка.
-    public int size();
+    public int Size();
     //Возвращает истину, если список пуст.
-    public bool empty();
+    public bool Empty();
     //Удаляет элемент c номером position.
-    public void erase(uint posisition);
+    public void Erase(uint posisition);
     //Удаляет элементы в интервале [begin, end).
-    public void erase(uint begin, uint end);
+    public void Erase(uint begin, uint end);
     //Очищает список.
-    public void clear();
+    public void Clear();
     //Удаляет все вхождения value в список.
-    public int remove(int value);
+    public int Remove(int value);
     //Удаляет последний элемент списка.
-    public void pop_back();
+    public void PopBack();
     //Удаляет первый элемент списка.
-    public void pop_front();
+    public void PopFront();
     //Добавляет значение value в конец списка.
-    public void push_back(int value);
+    public void PushBack(int value);
     //Добавляет значение value в начало списка.
-    public void push_front(int value);
+    public void PushFront(int value);
     //Вставляет значение value перед элементом, на который указывает before
-    public void insert(uint position, int value);
+    public void Insert(uint position, int value);
   };
+```
 
 Так же перегрузить метод Equals, позволяющий сравнить два списка. Внутри списка ещё реализовать свойство длинны списка, доступное только для чтения для классов вне списка.
